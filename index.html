@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap cdn -->
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- css style -->
+  </head>
+  <body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container ">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/img/logo8.png"
+            width="80px"
+            height="50px"
+            alt="logo"
+            class=" "
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarmy"
+          aria-controls="navbarmy"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span id="to" class="fa fa-bars "></span>
+        </button>
+
+        <div class="collapse navbar-collapse  " id="navbarmy">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item active ">
+          
+              <a class="nav-link" href="/">Home</a>
+           
+            </li>
+          
+            <li class="nav-item">
+              <a for="b1" class="nav-link" onClick="{location.href='#about'}">About Us</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" onClick="{location.href='#service'}">Services</a></li>
+            <li class="nav-item"><a class="nav-link" onClick="{location.href='#project'}">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" onClick="{location.href='#faqs'}">FAQs</a></li>
+            <li class="nav-item">
+              <a class="nav-link" onClick="{location.href='#contact';
+                       document.getElementById('about').style.transition='1s'}">Contact Us</a>
+            </li>
+       
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <!-- Banner start -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators rounded">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/e.jpg" alt="First slide" />
+          <div class="carousel-caption h-50">
+            <h3>Welcome to EcoWatt Solutions</h3>
+            <p>Powering a Sustainable Future</p>
+          </div>
+        </div>
+        <div class="carousel-item" >
+          <img class="d-block w-100" src="./img/w.jpg" alt="Second slide" />
+          <div class="carousel-caption h-50">
+            <h3>Wind Energy Innovation</h3>
+            <p>Harnessing the Wind's Power</p>
+          </div>
+          <!-- <div class="black">black</div> -->
+        </div>
+        <div class="carousel-item" >
+          <img class="d-block w-100" src="./img/d.jpg" alt="Third slide" />
+          <div class="carousel-caption h-50">
+            <h3>Solar Power Solutions</h3>
+            <p>Harvest the Power of the Sun</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Banner end -->
+    <!-- about us atart -->
+
+    <section id="about"></section>
+    <div class="text-center  p-5 ">
+      <h1>AboutUs</h1>
+      <hr />
+    </div>
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">About EcoWatt Solutions</h2>
+        <p class="lead">At EcoWatt Solutions, we are committed to a sustainable future powered by clean and renewable
+          energy. Our journey began with a profound passion for the environment and a vision to make a
+          difference. Today, we stand as a leading provider of sustainable energy solutions, dedicated to reducing
+          our carbon footprint and helping others do the same</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="./img/aab1.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Our Mission</h2>
+        <p class="lead">Our mission is clear: to provide accessible and environmentally responsible energy solutions that
+          empower individuals, businesses, and communities to transition to a cleaner, more sustainable energy
+          future. We believe that a greener world is not just a possibility, but an imperative.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="./img/aab2.avif" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- <hr class="featurette-divider"> -->
+    <!-- <hr class="featurette-divider"> -->
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Why Choose Us</h2>
+        <p class="lead"><li>
+          <strong>Experience:</strong> With years of experience in the sustainable energy industry, we bring a wealth of
+              knowledge to every project.
+              
+             </li>
+             <li>
+              <strong>Innovation:</strong> We embrace cutting-edge technology to deliver efficient, cost-effective, and
+              reliable solutions
+             </li>
+             <li>
+              <strong>Commitment:</strong> Our team is committed to sustainability, and our success is measured by our
+              clients' environmental impact reduction.
+             </li>
+             <li>
+              <strong>Community:</strong> We actively engage with communities, providing education, workshops, and
+              resources to promote green energy adoption.
+             </li></p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="./img/aab3.avif" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Our Team</h2>
+        <p class="lead">Behind EcoWatt Solutions is a team of passionate experts who share a common goal: to make clean
+          energy accessible to all. Our diverse team brings together the skills and experience needed to navigate
+          the complexities of the sustainable energy landscape</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="./img/aab4.avif" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- <hr class="featurette-divider"> -->
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Join Our Movement</h2>
+        <p class="lead">By choosing EcoWatt Solutions, you're not just making a smart investment; you're contributing to a
+          sustainable future for our planet. Join our movement toward a cleaner, greener world powered by
+          renewable energy.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="./img/aab5.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+     <!-- about us end -->
+     <!-- services start -->
+     <!-- <section> -->
+     <!-- <div class="container"> -->
+      <section id="service"></section>
+      <hr class="featurette-divider">
+      <div class="text-center p-5">
+        <h1>Our Services</h1>
+        <hr />
+      </div>
+
+      <div class="row p-5">
+        <div class="col-lg-6  col-md-6 col-sm-12">
+          <div id="cardsec"
+      
+          class="card mb-5 shadow-sm">
+            <img src="./img/solar.avif" class="img-fluid" />
+
+            <div id="cardsec-body" class="card-body">
+              <div class="card-title">
+                <h2>Solar Power Solutions</h2>
+              </div>
+              <div id="cards1" class="card-text" style="display: none;">
+                <p>
+                    EcoWatt Solutions offers comprehensive solar power solutions that empower homes and businesses
+                    with clean, renewable energy. Our services include expertly designed and installed solar panel systems
+                    for residential and commercial clients, efficient solar lighting solutions, and reliable solar panel
+                    maintenance. We harness the sun's energy to reduce your carbon footprint and lower energy costs.
+                </p>
+              </div>
+              <a onClick="if(document.getElementById('cards1').style.display==='none'){
+                document.getElementById('cards1').style.display='block';
+                document.getElementById('cards1').style.transition='1s';
+                this.textContent='Read Less'
+              }else{
+              document.getElementById('cards1').style.display='none';
+                document.getElementById('cards1').style.transition='1s'
+                this.textContent='Read More'
+              }"   class="btn btn-outline-primary rounded-0 float-end"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="cardsec" class="card mb-5 shadow-sm">
+            <img src="./img/wwind.jpg" class="img-fluid" />
+
+            <div id="cardsec-body" class="card-body">
+              <div class="card-title">
+                <h2>Wind Energy Projects</h2>
+              </div>
+              <div id="cards2" style="display: none;" class="card-text">
+                <p>
+                    At EcoWatt Solutions, we're committed to wind energy projects that drive a sustainable future. Our
+                    expertise covers onshore and offshore wind farm development, project consultation, and meticulous
+                    wind turbine maintenance. We provide eco-friendly wind solutions that offer a reliable and renewable
+                    source of power
+                </p>
+              </div>
+              <a onClick="if(document.getElementById('cards2').style.display==='none'){
+                document.getElementById('cards2').style.display='block';
+                document.getElementById('cards2').style.transition='1s';
+                this.textContent='Read Less'
+              }else{
+              document.getElementById('cards2').style.display='none';
+                document.getElementById('cards21').style.transition='1s'
+                this.textContent='Read More'
+              }"   class="btn btn-outline-primary rounded-0 float-end"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="cardsec" class="card mb-5 shadow-sm">
+            <img src="./img/hydro.jpg" class="img-fluid" />
+
+            <div id="cardsec-body" class="card-body">
+              <div  class="card-title">
+                <h2>Hydroelectric Power Generation
+                </h2>
+              </div>
+              <div id="cards3" style="display: none;" class="card-text">
+                <p>
+                    EcoWatt Solutions is at the forefront of hydroelectric power generation. Our services encompass the
+                    design and construction of hydroelectric power plants, rigorous dam inspection and maintenance, and
+                    micro-hydro solutions for off-grid locations. We're dedicated to harnessing the energy of flowing water
+                    for a cleaner and greener world.
+                </p>
+              </div>
+              <a onClick="if(document.getElementById('cards3').style.display==='none'){
+                document.getElementById('cards3').style.display='block';
+                document.getElementById('cards3').style.transition='1s';
+                this.textContent='Read Less'
+              }else{
+              document.getElementById('cards3').style.display='none';
+                document.getElementById('cards3').style.transition='1s'
+                this.textContent='Read More'
+              }"   class="btn btn-outline-primary rounded-0 float-end"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="cardsec" class="card mb-5 shadow-sm">
+            <img src="./img/energy.jpg" class="img-fluid" />
+
+            <div id="cardsec-body" class="card-body">
+              <div class="card-title">
+                <h2>Energy Storage Solutions</h2>
+              </div>
+              <div id="cards4" style="display: none;" class="card-text">
+                <p>
+                    Efficient energy storage is essential for a sustainable future. EcoWatt Solutions offers advanced energy
+                    storage systems, robust battery backup solutions for homes and businesses, and grid-balancing
+                    services. Our cutting-edge technology ensures stable and reliable energy supply, supporting the
+                    integration of renewable energy sources into the grid.
+                </p>
+              </div>
+              <a onClick="if(document.getElementById('cards4').style.display==='none'){
+                document.getElementById('cards4').style.display='block';
+                document.getElementById('cards4').style.transition='1s';
+                this.textContent='Read Less'
+              }else{
+              document.getElementById('cards4').style.display='none';
+                document.getElementById('cards4').style.transition='1s'
+                this.textContent='Read More'
+              }"   class="btn btn-outline-primary rounded-0 float-end"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- </div> -->
+       <!-- services end -->
+       <!-- Project/gallery start -->
+     <!-- <section> -->
+        <!-- <div class="container"> -->
+          <section id="project"></section>
+          <hr class="featurette-divider">
+          <div class="text-center p-5">
+            <h1>ProjectGallery </h1>
+            <hr />
+          </div>
+         
+          <div class="row p-5">
+             
+              
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Wind power</h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw1.jpg" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+        
+              </div>
+            </div>
+          
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Solar Power </h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw2.jpg" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+              
+              </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Hydro Power Plant</h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw3.avif" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+              </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Wind Plant</h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw4.jpg" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+               
+              </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Solar Plant</h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw5.avif" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+               
+              </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+              <div class="card-title">
+                  <h2>Hydro Power Plant</h2>
+                </div>
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                <img src="./img/sw6.avif" class="img-fluid" onMouseOver="this.style.filter='brightness(68%)';this.style.scale='1.1';this.style.transition='1s'"
+                onMouseOut="this.style.filter='brightness(100%)';this.style.scale='1'"/>
+    
+              
+              </div>
+            </div>
+            
+    
+          </div>
+        </section>
+        <!-- </section>
+        </div> -->
+           <!--  Project/gallery end -->
+           <!-- faqs start -->
+     <!-- <section> -->
+        <!-- <div class="container"> -->
+          <section id="faqs">
+          <hr class="featurette-divider">
+          <div class="text-center p-5">
+            <h1>FAQs</h1>
+            <hr />
+          </div>
+         
+          <div class="row p-5">
+             
+              
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+             
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>1. What is renewable energy, and how does it work?</h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text1').style.display==='none'){document.getElementById('cardfaq-text1').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text1').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text1" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      Renewable energy is energy generated from natural resources that are constantly replenished, such
+                      as sunlight, wind, and water. Solar panels convert sunlight into electricity, wind turbines harness the
+                      kinetic energy of the wind, and hydroelectric plants use the energy of flowing water to generate power.
+                    </p>
+                  </div>
+                 
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>2. What are the benefits of switching to sustainable energy sources?
+                  </h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text2').style.display==='none'){document.getElementById('cardfaq-text2').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text2').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text2" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      The benefits are numerous. Switching to sustainable energy sources reduces greenhouse gas
+                      emissions, lowers energy costs, promotes energy independence, and helps combat climate change.
+                      It's an eco-friendly choice that contributes to a cleaner environment and a more secure energy future
+                    </p>
+                  </div>
+                 
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+               
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>3. How can I determine if my property is suitable for solar panel installation?</h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text3').style.display==='none'){document.getElementById('cardfaq-text3').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text3').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text3" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      The suitability of your property depends on factors like its location, sun exposure, and shading. Our
+experts can perform a site assessment to evaluate its solar potential. We consider these factors to
+provide you with the most accurate and beneficial solar solution.
+                    </p>
+                  </div>
+                 
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>4. What maintenance is required for solar panels?
+                      </h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text4').style.display==='none'){document.getElementById('cardfaq-text4').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text4').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text4" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      Solar panels require minimal maintenance. Regular cleaning, typically with water and a soft brush, helps
+maintain their efficiency. Additionally, it's important to schedule periodic inspections and maintenance
+by professionals to ensure optimal performance.
+
+                    </p>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+              
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>5. How can I transition to clean energy for my business?
+                          </h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text5').style.display==='none'){document.getElementById('cardfaq-text5').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text5').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text5" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      Transitioning to clean energy for your business involves an assessment of your energy needs, followed
+                      by the design and installation of the appropriate system, such as solar or wind energy. We offer
+                      consultation services to help businesses make the transition smoothly.
+                      
+                    </p>
+                  </div>
+                 
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+                
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>6. What is grid-balancing, and how does it work with energy storage solutions?</h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text6').style.display==='none'){document.getElementById('cardfaq-text6').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text6').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text6" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      Grid-balancing involves stabilizing energy supply by matching energy generation with consumption.
+Energy storage solutions, like advanced battery systems, store excess energy when it's generated and
+release it during periods of high demand, ensuring a consistent and reliable energy supply
+                    </p>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="col-lg-12  col-md-12 col-sm-12">
+            
+              <div id="cardsec" class="card mb-5 shadow-sm">
+               
+                  <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+                      <h2>7. Are your projects eco-friendly and environmentally responsible?</h2>
+                      <i style="margin-right:20px" id="iclass" class="fa fa-plus" onClick="if(document.getElementById('cardfaq-text7').style.display==='none'){document.getElementById('cardfaq-text7').style.display='block';
+                     this.setAttribute('class', 'fa fa-minus');} 
+                     else{
+                      document.getElementById('cardfaq-text7').style.display='none';
+                     this.setAttribute('class', 'fa fa-plus')
+                     }"></i>
+                    </div>
+                  <div id="cardfaq-text7" class="card-text" style="display: none;"
+                  >
+                    <p class="">
+                      Yes, all our projects prioritize eco-friendliness and environmental responsibility. We adhere to the
+                      highest environmental standards, ensuring minimal impact on natural ecosystems while generating
+                      clean energy.
+                    </p>
+                  </div>
+                 
+              </div>
+            </div>
+    
+          </div>
+        </section>
+        <!-- </section>
+        </div> -->
+           <!--  faqs end -->
+            <!-- contact start-->
+            <section id="contact"></section>
+            <hr class="featurette-divider">
+            <!-- <section id="about"> -->
+ <div class="text-center p-5">
+  <h1>Contact Us</h1>
+  <hr />
+  <p>Have questions or interested in our sustainable energy solutions?</p>
+</div>
+<div class="row p-5">
+             
+              
+ 
+  <div class="col-lg-4  col-md-12 col-sm-12">
+  
+      <div id="cardsec" class="card mb-5 shadow-sm">
+      
+          <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+              <h2> <i class="fa-solid fa-phone lh-1"></i>&nbsp;&nbsp;By Phone</h2>
+             
+            </div>
+          <div id="cardfaq-text1" class="card-text"
+          >
+            <p class="font-weight-bold">
+              +971 289737479
+<br/>
+                
+            </p>
+          </div>
+          <a href="tel:+971 289737479" class="btn fa-solid fa-phone btn-outline-primary rounded-0 float-end"
+            ></a
+          >
+       
+      </div>
+    </div>
+    <div class="col-lg-4  col-md-12 col-sm-12">
+  
+      <div id="cardsec" class="card mb-5 shadow-sm">
+       
+          <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+              <h2> <i class="fa-solid fa-location-dot lh-1"></i>&nbsp;&nbsp;Address</h2>
+             
+            </div>
+          <div id="cardfaq-text1" class="card-text"
+          >
+            <p class="font-weight-bold">
+                EcoWatt Solutions 123 Green Energy Way Sustainable City Greenland, ECO123
+<br/>
+<hr />
+Timing:<br />
+Monday - Friday: 9:00 AM - 5:00 PM Saturday: 10:00 AM - 2:00 PM (Closed on Sundays and
+Holidays)
+ 
+            </p>
+          </div>
+          <a href="https://maps.app.goo.gl/9uwCcUudcubB2RcY6" class="btn fa-solid fa-location-dot btn-outline-primary rounded-0 float-end"
+            ></a
+          >
+  
+      </div>
+    </div>
+    <div class="col-lg-4  col-md-12 col-sm-12">
+  
+      <div id="cardsec" class="card mb-5 shadow-sm">
+       
+          <div class="card-title mt-2 d-flex justify-content-between align-items-center">
+              <h2 class="text-center"> 
+                  <p class="fa-solid fa-envelope lh-1"></p>&nbsp;&nbsp;By Mail</h2>
+             
+            </div>
+          <div id="cardfaq-text1" class="card-text"
+          >
+            <p class="font-weight-bold">
+               info@ecowattsolutions.ae  <br/>
+                
+            </p>
+          </div>
+          <a href=" mailto:info@ecowattsolutions.ae" class="btn fa-solid fa-envelope btn-outline-primary rounded-0 float-end"
+            ></a
+          >
+       
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Contact End -->
+  <!-- footer start -->
+  <footer class="pt-5 border-top  " style="background-color: rgba(0, 0, 0, 0.9);bottom:0">
+    <!-- <div class="d-flex justify-content-between"> -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+          <img
+            class=""
+            src="./img/logo8.png"
+            alt=""
+            width="100"
+            height="100"
+          />
+          <small class="d-block mb-3 ml-3 text-light"
+            >Ecowatt Energy DAC © 2023 All Rights Reserved
+
+            </small
+          >
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+          <h5 class="ml-3" style="font-size: 20px; color: white">Social Media Links</h5>
+          <ul
+            class="ml-3 list-unstyled d-flex"
+            style="font-size: 30px; color: white"
+          >
+            <li class="mr-3"><i href="https://www.youtube.com/channel/UC_NBfjmVxFXkuKhXXjYfV7Q" class="fa-brands fa-square-youtube"></i></li>
+
+            <li class="mr-3"><i href="https://www.linkedin.com/company/ecowattofficial/" class="fa-brands fa-linkedin"></i></li>
+            <li class="mr-3">
+              <i href="https://www.instagram.com/ecowattofficial/" class="fa-brands fa-square-instagram"></i>
+            </li>
+            <li class="mr-3"><i href="https://www.facebook.com/EcoWattOfficial" class="fa-brands fa-square-facebook"></i></li>
+            <li class="mr-3">
+              <i href="https://twitter.com/EcoWattOfficial" class="fa-brands fa-square-x-twitter"></i>
+            </li>
+            <li><i href="https://t.me/+Ro2sTZkA9tQxY2U0" class="fa-brands fa-telegram"></i></li>
+          </ul>
+        </div>
+
+        
+      <!-- </div> -->
+    </div>
+  </footer>
+  <!-- footer end -->
+       
+
+    <!-- script cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script cdn -->
+  </body>
+</html>
